@@ -9,8 +9,7 @@
       <ul class="header">
         <li><a href="#" class="left">Информация</a></li>
         <li><a href="#" class="left">Фото и видео</a></li>
-        <li><a href="#" class="header-logo">
-          <img src="logo_menu.png" class="header-logo" width="138" height="70" alt="Седона"></a></li>
+        <li><a href="#" class="header-logo"><img src="#" class="header-logo" alt="Седона"></a></li>
         <li><a href="#" class="right">Карта штата</a></li>
         <li><a href="#" class="right">Гостиницы</a></li>
       </ul>
@@ -18,11 +17,8 @@
     <main>
       <section>
         <!--<h1>Welcome to the gorgeous Sedona "Because the Grand Canyon sucks!"<?h1>-->
-          <img src="welcome.png" class="welcome1" width="188" height="45" alt="Добро пожаловать">
-          <img src="because.png" clas="welcome2" width="296" height="80" alt="Добро пожаловать">
-          <img src="gorgeous.png" class="welcome3" width="176" height="30" alt="Добро пожаловать">
         <div class="background-top">
-          <img src="background_photo.jpg" class="picture-top" width="1200" height="773" alt="Welcome to the gorgeous Sedona">
+          <img src="#" class="picture-top" alt="Welcome to the gorgeous Sedona">
         </div>
       <section class="announcement">
         <h2>Седона - небольшой городок в Аризоне,<br /> заслуживающий большего!</h2>
@@ -35,22 +31,22 @@
           <p>Седона - не аттракцион для туристов,<br /> там течет своя жизнь</p>
         </div>
         <div class="img-description-1">
-          <img src="hotel.jpg" class="img-description" width="800" height="256" alt="Седона - не аттракцион для туристов">
+          <img class="img-description" src="#" alt="Седона - не аттракцион для туристов">
         </div>
       </section>
       <section class="middle-features">
         <div class="feature-accommodation">
-          <img src="accomodation.png" class="icon-accommodation" width="75" height="72" alt="Жилье">
+          <img class="icon-accommodation" src="#" alt="Жилье">
           <h2>Жилье</h2>
           <p>Рекомендуем пожить в настоящем <br />мотеле, все как в кино!</p>
         </div>
         <div class="feature-food">
-          <img src="food.png" class="icon-food" width="74" height="70" alt="Еда">
+          <img class="icon-food" src="#" alt="Еда">
           <h2>Еда</h2>
           <p>Всегда заказывайте фирменный бургер,<br />вы не разочаруетесь!</p>
         </div>
         <div class="feature-souvenirs">
-          <img src="souvenirs.png" class="icon-souvenir" width="64" height="76" alt="Сувениры">
+          <img class="icon-souvenir" src="#" alt="Сувениры">
           <h2>Сувениры</h2>
           <p>Не только китайского, но и местного <br />производства</p>
         </div>
@@ -62,7 +58,7 @@
           <p>Да, по нему можно пройти! Если конечно <br />вы осмелитесь</p>
         </div>
         <div class="img-description-2">
-          <img src="canyon.jpg" class="img-description" width="800" height="256" alt="Мост дьявола">
+          <img class="img-description" src="#" alt="Мост дьявола">
         </div>
       </section>
       <section class="rest-features">
@@ -90,7 +86,7 @@
       </section>
       <section class="map-background">
         <div>
-          <img src="map.png" class="map" width="1200" height="593" alt="Карта">
+          <img class="map" src="" alt="Карта">
         </div>
       </section>
     </main>
@@ -105,7 +101,7 @@
       </div>
       <div class="footer-main-right">
         <span>Website by</span>
-        <img src="html_logo_name.png" class="logo-academy" width="113" height="39" alt="HTML академия">
+        <a class="logo-academy" src="#"></a>
       </div>
     </footer>
   </body>
