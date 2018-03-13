@@ -1,12 +1,226 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона – Главная</title>
+    <!--   Седона - поиск и бронирование гостиниц -->
+    <meta charset="utf-8"> 
   </head>
-  <body>
+  <body class="page-index"> <!-- У нас будет повторяться блок с формой поиска, чтобы этого избежать, мы будем использовать этот класс для каскада -->
+<!--
+    <header class="page-header">
+      <ul class="header">
+        -стили пока что добавлять не нужно -
+        <li><a href="#" class="left">Информация</a></li>
+        <li><a href="#" class="left">Информация</a></li>
+        <li><a href="#" class="header-logo"><img src="#" class="header-logo" alt="Седона"></a></li> - в src заглушка # не ставится, вместо нее нужно использовать ту, что в ТЗ.
+        <li><a href="#" class="right">Карта штата</a></li>
+        <li><a href="#" class="right">Гостиницы</a></li>
+      </ul>
+    </header>
+-->
+<!-- 
+  Хорошая разметка хороша тогда, когда она отлично читается без стилей. Так что смотря на макет, воспринимай только содержание  
+-->
+    <header>
+      <div>
+        <img src="http://placehold.it/150x100">
+      </div>
+      <main-nav>
+        <ul>
+          <li><a class="checked" href="#">Информация</a></li>
+          <li><a href="#">Фото и видео</a></li>
+          <li><a href="#">Карта штата</a></li>
+          <li><a href="#">Гостиницы</a></li>
+        </ul>
+      </main-nav>  
+    </header>
+    
+    <main>
+<!--
+      <section>
+        <h1>Welcome to the gorgeous Sedona "Because the Grand Canyon sucks!"<?h1>
+        <div class="background-top">
+          <img src="#" class="picture-top" alt="Welcome to the gorgeous Sedona">
+        </div>
+-->
+<!--
+      Давай представим, что мы пишем текст, стараясь сделать его наиболее структурированным.
+-->
+      <section class="intro">
+        <h1>Седона – поиск и бронирование гостиниц</h1> <!-- Заголовк первого уровня. Его мы строим в зависимости от цели сайта или от его содержания. Можно написать Бронирование гостиниц в Седоне, если это является главной функцией сайта. -->
+        <p>Добро пожаловать в великолепную Седону!</p>
+        <div>
+          <img src="http://placehold.it/150x100">
+        </div>
+      </section>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
+<!--
+      <section class="announcement">
+        <h2>Седона - небольшой городок в Аризоне,<br /> заслуживающий большего!</h2>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
+      </section>
+      <section class="#1">
+        <div class="feature-1">
+          <h2>Настоящий городок</h2>
+          <span>-№1-</span>
+          <p>Седона - не аттракцион для туристов,<br /> там течет своя жизнь</p>
+        </div>
+        <div class="img-description-1">
+          <img class="img-description" src="#" alt="Седона - не аттракцион для туристов">
+        </div>
+      </section>
+      <section class="middle-features">
+        <div class="feature-accommodation">
+          <img class="icon-accommodation" src="#" alt="Жилье">
+          <h2>Жилье</h2>
+          <p>Рекомендуем пожить в настоящем <br />мотеле, все как в кино!</p>
+        </div>
+        <div class="feature-food">
+          <img class="icon-food" src="#" alt="Еда">
+          <h2>Еда</h2>
+          <p>Всегда заказывайте фирменный бургер,<br />вы не разочаруетесь!</p>
+        </div>
+        <div class="feature-souvenirs">
+          <img class="icon-souvenir" src="#" alt="Сувениры">
+          <h2>Сувениры</h2>
+          <p>Не только китайского, но и местного <br />производства</p>
+        </div>
+      </section>
+      <section class="#2">
+        <div class="feature-2">
+          <h2>Там есть <br />мост дьявола</h2>
+          <span>-№2-</span>
+          <p>Да, по нему можно пройти! Если конечно <br />вы осмелитесь</p>
+        </div>
+        <div class="img-description-2">
+          <img class="img-description" src="#" alt="Мост дьявола">
+        </div>
+      </section>
+      <section class="rest-features">
+        <div class="feature-3">
+          <h2>Небольшая площадь</h2>
+          <span>-№3-</span>
+          <p>Все достопримечательности <br />находятся очень близко</p>
+        </div>
+        <div class="feature-4">
+          <h2>Красивая дорога</h2>
+          <span>-№4-</span>
+          <p>Ехать в Седону из Лас-Вегаса совсем<br />не скучно!</p>
+        </div>
+        <div class="feature-5">
+          <h2>Мало туристов</h2>
+          <span>-№5-</span>
+          <p>Большинство едет в Гранд Каньон и<br />толпится там</p>
+        </div>
+      </section>
+-->
+
+<!--  
+      Давай прочитаем, что написано и попытаемся осмыслить эту информацию.
+      Мы заметим, что она вся однотипная и касается преимуществ.
+-->   
+      <seciton class="features">
+        <h2>Преимущества Седоны</h2>
+        <ul>
+          <li>
+            <div>
+              <h3>Настоящий городок</h3>
+              <span>– №1 –</span>
+              <p>Седона – не аттракцион для туристов, там течет своя жизнь</p> 
+              <!-- Здесь ставим тире, для этого нужно зажать win, на цифрах справа ввести код 0150 и отпустить win. Можешь побаловаться с другими кодами, это забавляет :). br здесь не ставим, в дальнейшем мы сможем выровнить текст под макет -->
+            </div>
+            <div>
+              <img src="http://placehold.it/150x100">
+            </div>
+          </li>
+          <li>
+            <h3>Жилье</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li>
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li>
+            <h3>Cувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
+          </li>
+          <li>
+            <div>
+              <h3>Там есть Мост Дьявола</h3>
+              <span>– №2 –</span>
+              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>      
+            </div>
+            <div>
+              <img src="http://placehold.it/150x100">
+            </div>
+          </li>
+          <li>
+            <h3>Небольшая площадь</h3>
+            <p>Все достопримечательности находятся очень близко</p>
+          </li>
+          <li>
+            <h3>Красивая дорога</h3>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li>
+            <h3>Мало туристов</h3>
+            <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+          <li>
+        </ul>
+      </seciton>
+<!--
+    Теперь у нас идет блок для поиска гостиниц в Седоне.
+    Выбираем нужный уровень заголовка и подбираем подходящее название.
+-->
+      <section class="hostelsearch">
+        <h2>Поиск гостиницы в Седоне</h2>
+        <p>Заинтересовались?</p>
+        <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+        <form class="hostelsearch-form-small"></form>
+        <div class="map"></div>
+      </section>
+
+    </main>
+<!--
+    <footer class="footer-main">
+      <div class="footer-main-left">
+        <a class="instagram" src="#">#visitsedona</a>
+      </div>
+      <div class="footer-main-center">
+        <a class="social" href="#"><img class="icon-twitter" alt="Твиттер"></a>
+        <a class="social" href="#"><img class="icon-facebook" alt="Фейсбук"></a> 
+        <a class="social" href="#"><img class="icon-youtube" alt="Ютуб"></a>
+      </div>
+      <div class="footer-main-right">
+        <span>Website by</span>
+        <a class="logo-academy" src="#"></a>
+      </div>
+    </footer>
+-->
+<!--
+    Я бы сделал разметку более семантичной, разбил блоки не в зависимости от нахождения, а от содержания. У тебя впринципе все хорошо, но все-таки предложу свой вариант, чтобы понял, что я имею ввиду.
+-->
+    <footer>
+      <section>
+        <h3>Наш хештег</h3> <!-- Хеш тег же нужен для поиска постов и в вк, фб, и инсте  -->
+        <p>#visitsedona</p>
+      </section>
+      <section>
+        <h2>Мы в социальных сетях</h2>
+        <ul> <!-- Текст мы скроем, а иконки сделаем фоном =) -->
+          <li><a href="#">Мы в Твиттере</a></li>
+          <li><a href="#">Мы в Фейсбуке</a></li>
+          <li><a href="#">Мы в Ютьюбе</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Разработчик:</h2>
+        <a href="#"><img src="http://placehold.it/150x100"></a>
+      </section>
+    </footer>
 
   </body>
+
 </html>
