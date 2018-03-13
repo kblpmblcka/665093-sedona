@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sedona Главная страница</title>
+    <meta charset="utf-8"> 
+  </head>
+  <body>
+    <header class="page-header">
+      <ul class="header">
+        <li><a href="#" class="left">Информация</a></li>
+        <li><a href="#" class="left">Фото и видео</a></li>
+        <li><a href="#" class="header-logo">
+          <img src="logo_menu.png" class="header-logo" width="138" height="70" alt="Седона"></a></li>
+        <li><a href="#" class="right">Карта штата</a></li>
+        <li><a href="#" class="right">Гостиницы</a></li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <!--<h1>Welcome to the gorgeous Sedona "Because the Grand Canyon sucks!"<?h1>-->
+          <img src="welcome.png" class="welcome1" width="188" height="45" alt="Добро пожаловать">
+          <img src="because.png" clas="welcome2" width="296" height="80" alt="Добро пожаловать">
+          <img src="gorgeous.png" class="welcome3" width="176" height="30" alt="Добро пожаловать">
+        <div class="background-top">
+          <img src="background_photo.jpg" class="picture-top" width="1200" height="773" alt="Welcome to the gorgeous Sedona">
+        </div>
+      <section class="announcement">
+        <h2>Седона - небольшой городок в Аризоне,<br /> заслуживающий большего!</h2>
+        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон</p>
+      </section>
+<!--  <section class="#1">
+        <div class="feature-1">
+          <h2>Настоящий городок</h2>
+          <span>-№1-</span>
+          <p>Седона - не аттракцион для туристов,<br /> там течет своя жизнь</p>
+        </div>
+        <div class="img-description-1">
+          <img src="hotel.jpg" class="img-description" width="800" height="256" alt="Седона - не аттракцион для туристов">
+        </div>
+      </section>
+      <section class="middle-features">
+        <div class="feature-accommodation">
+          <img src="accomodation.png" class="icon-accommodation" width="75" height="72" alt="Жилье">
+          <h2>Жилье</h2>
+          <p>Рекомендуем пожить в настоящем <br />мотеле, все как в кино!</p>
+        </div>
+        <div class="feature-food">
+          <img src="food.png" class="icon-food" width="74" height="70" alt="Еда">
+          <h2>Еда</h2>
+          <p>Всегда заказывайте фирменный бургер,<br />вы не разочаруетесь!</p>
+        </div>
+        <div class="feature-souvenirs">
+          <img src="souvenirs.png" class="icon-souvenir" width="64" height="76" alt="Сувениры">
+          <h2>Сувениры</h2>
+          <p>Не только китайского, но и местного <br />производства</p>
+        </div>
+      </section>
+      <section class="#2">
+        <div class="feature-2">
+          <h2>Там есть <br />мост дьявола</h2>
+          <span>-№2-</span>
+          <p>Да, по нему можно пройти! Если конечно <br />вы осмелитесь</p>
+        </div>
+        <div class="img-description-2">
+          <img src="canyon.jpg" class="img-description" width="800" height="256" alt="Мост дьявола">
+        </div>
+      </section>
+      <section class="rest-features">
+        <div class="feature-3">
+          <h2>Небольшая площадь</h2>
+          <span>-№3-</span>
+          <p>Все достопримечательности <br />находятся очень близко</p>
+        </div>
+        <div class="feature-4">
+          <h2>Красивая дорога</h2>
+          <span>-№4-</span>
+          <p>Ехать в Седону из Лас-Вегаса совсем<br />не скучно!</p>
+        </div>
+        <div class="feature-5">
+          <h2>Мало туристов</h2>
+          <span>-№5-</span>
+          <p>Большинство едет в Гранд Каньон и<br />толпится там</p>
+        </div>
+      </section>
+      <section class="interested"> -->
+      <seciton class="features">
+        <h2>Преимущества Седоны</h2>
+        <ul>
+          <li>
+            <div>
+              <h3>Настоящий городок</h3>
+              <span>– №1 –</span>
+              <p>Седона – не аттракцион для туристов, там течет своя жизнь</p> 
+              <!-- Здесь ставим тире, для этого нужно зажать win, на цифрах справа ввести код 0150 и отпустить win. Можешь побаловаться с другими кодами, это забавляет :). Ничего не понял про win - я пользуюсь ультрабуком, здесь нет справа цифр ((
+                br здесь не ставим, в дальнейшем мы сможем выровнить текст под макет -->
+            </div>
+            <div>
+              <img src="hotel.jpg" class="img-description" width="800" height="256" alt="Седона - не аттракцион для туристов">
+            </div>
+          </li>
+          <li>
+            <h3>Жилье</h3>
+            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+              <img src="accomodation.png" class="icon-accommodation" width="75" height="72" alt="Жилье">
+          </li>
+          <li>
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              <img src="food.png" class="icon-food" width="74" height="70" alt="Еда">
+          </li>
+          <li>
+            <h3>Cувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
+              <img src="souvenirs.png" class="icon-souvenir" width="64" height="76" alt="Сувениры">
+          </li>
+          <li>
+            <div>
+              <h3>Там есть Мост Дьявола</h3>
+              <span>– №2 –</span>
+              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>      
+            </div>
+            <div>
+              <img <img src="canyon.jpg" class="img-description" width="800" height="256" alt="Мост дьявола">>
+            </div>
+          </li>
+          <li>
+            <h3>Небольшая площадь</h3>
+            <p>Все достопримечательности находятся очень близко</p>
+          </li>
+          <li>
+            <h3>Красивая дорога</h3>
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li>
+            <h3>Мало туристов</h3>
+            <p>Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+          <li>
+        </ul>
+      </seciton>
+      <section class="hostelsearch">
+        <p>Заинтересовались?</p>
+        <p>Укажите предполагаемые даты поездки,<br />и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+        <form class="hostelsearch-form-small"></form>
+        <div class="map">
+          <img src="map.png" class="map" width="1200" height="593" alt="Карта">
+        </div>
+      </section>
+    </main>
+    <footer class="footer-main">
+<!--мой вариант футера
+      <div class="footer-main-left">
+        <a class="instagram" src="#">#visitsedona</a>
+      </div>
+      <div class="footer-main-center">
+        <a class="social" href="#"><img class="icon-twitter" alt="Твиттер"></a>
+        <a class="social" href="#"><img class="icon-facebook" alt="Фейсбук"></a> 
+        <a class="social" href="#"><img class="icon-youtube" alt="Ютуб"></a>  
+      </div>
+      <div class="footer-main-right">
+        <span>Website by</span>
+        <a href="#">
+          <img src="html_logo_name.png" class="logo-academy" width="113" height="39" alt="HTML академия">
+        </a>
+      </div>-->
+      <section>
+        <h3>Наш хештег</h3> <!-- Хеш тег же нужен для поиска постов и в вк, фб, и инсте  -->
+        <p>#visitsedona</p>
+      </section>
+      <section>
+        <h2>Мы в социальных сетях</h2>
+        <ul> <!-- Текст мы скроем, а иконки сделаем фоном =) -->
+          <li><a href="#">Мы в Твиттере</a></li>
+          <li><a href="#">Мы в Фейсбуке</a></li>
+          <li><a href="#">Мы в Ютьюбе</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Разработчик:</h2>
+        <a href="#">
+          <img <img src="html_logo_name.png" class="logo-academy" width="113" height="39" alt="HTML академия">
+        </a>
+      </section>
+    </footer>
+  </body>
+</html>
+
+
+
+
+
+
